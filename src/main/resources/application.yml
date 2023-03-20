@@ -60,6 +60,11 @@ management:
    
   shutdown:
    enabled: true 
+
+speaklearn:
+  app:
+    jwtSecret: speakLearn@!23
+    jwtExpirationMs: 86400000
   
 info:
  application:
